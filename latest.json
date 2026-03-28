@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-03-28T01:32:34.883Z",
+  "generated_by": "claude_health_logger.js",
+  "description": "AES Extension health summary — read mesh/logs/ext_*.json for full detail",
+  "session": {
+    "status": "idle",
+    "context_pct": 100,
+    "context_health": "critical",
+    "message_count": 100,
+    "avg_response_s": 0,
+    "current_model": "claude-sonnet",
+    "online": true,
+    "rate_limited": false,
+    "session_age_min": 2,
+    "recent_errors": [],
+    "read_more": "tunnel/read mesh/logs/ext_health.json"
+  },
+  "network": {
+    "total_sessions": 2,
+    "aes_sessions": 0,
+    "node_sessions": 0,
+    "open_sessions": 2,
+    "idle_sessions": 0,
+    "any_rate_limited": false,
+    "any_offline": false,
+    "aes_hooked_tab": null,
+    "read_more": "tunnel/read mesh/logs/ext_network.json"
+  },
+  "raid": {
+    "total_tests": 0,
+    "tests_passed": 0,
+    "tests_failed": 0,
+    "pass_rate": "no_tests",
+    "last_test_type": null,
+    "last_test_result": null,
+    "last_test_ts": null,
+    "last_test_msg": null,
+    "read_more": "tunnel/read mesh/logs/ext_raid.json"
+  },
+  "system": {
+    "session_number": 1,
+    "build_version": "3.0.2",
+    "last_startup": "2026-03-28T01:29:22.598Z",
+    "perf_changes": 0,
+    "sweeps_run": 0,
+    "github_syncs": 0,
+    "github_errors": 0,
+    "read_more": "tunnel/read mesh/logs/ext_system.json"
+  },
+  "extension": {
+    "log_entries": 1,
+    "last_event_type": "startup",
+    "last_event_ts": "2026-03-28T01:29:22.597Z",
+    "last_event_msg": "Extension service worker started — version: 3.0.2, tabs already open: 2",
+    "read_more": "tunnel/read mesh/logs/ext_extension.json"
+  },
+  "errors": {
+    "total_errors": 0,
+    "critical_count": 0,
+    "recent": [],
+    "read_more": "tunnel/read mesh/logs/ext_errors.json"
+  },
+  "quick_status": {
+    "status": "context_high",
+    "level": "warn",
+    "message": "Context window at 100%. Conversation is getting long.",
+    "action": "Informational — context is high. You can continue or start fresh, your call."
+  },
+  "doctor_hint": "Load doctor.loer for targeted health queries. Windings: HEALTH_CHECK (all), SESSION, NETWORK, RAID, ERRORS, ATOMIC."
+}
