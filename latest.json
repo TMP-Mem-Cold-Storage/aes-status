@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-28T01:51:19.716Z",
+  "generated_at": "2026-03-28T01:51:44.511Z",
   "generated_by": "claude_health_logger.js",
   "description": "AES Extension health summary — read mesh/logs/ext_*.json for full detail",
   "session": {
-    "status": "responding",
-    "context_pct": 0,
-    "context_health": "good",
-    "message_count": 0,
-    "avg_response_s": 0,
-    "current_model": "unknown",
+    "status": "idle",
+    "context_pct": 100,
+    "context_health": "critical",
+    "message_count": 114,
+    "avg_response_s": 52.9,
+    "current_model": "claude-sonnet",
     "online": true,
     "rate_limited": false,
-    "session_age_min": 11,
+    "session_age_min": 22,
     "recent_errors": [],
     "read_more": "tunnel/read mesh/logs/ext_health.json"
   },
@@ -43,7 +43,7 @@
     "last_startup": "2026-03-28T01:29:22.598Z",
     "perf_changes": 0,
     "sweeps_run": 0,
-    "github_syncs": 69,
+    "github_syncs": 70,
     "github_errors": 0,
     "read_more": "tunnel/read mesh/logs/ext_system.json"
   },
@@ -61,10 +61,10 @@
     "read_more": "tunnel/read mesh/logs/ext_errors.json"
   },
   "quick_status": {
-    "status": "healthy",
-    "level": "info",
-    "message": "Session healthy — 0% context, 0s avg response, 0 messages, model: unknown",
-    "action": null
+    "status": "context_high",
+    "level": "warn",
+    "message": "Context window at 100%. Conversation is getting long.",
+    "action": "Informational — context is high. You can continue or start fresh, your call."
   },
   "doctor_hint": "Load doctor.loer for targeted health queries. Windings: HEALTH_CHECK (all), SESSION, NETWORK, RAID, ERRORS, ATOMIC."
 }
