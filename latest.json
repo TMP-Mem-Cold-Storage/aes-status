@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T01:34:47.874Z",
+  "generated_at": "2026-03-28T01:35:12.309Z",
   "generated_by": "claude_health_logger.js",
   "description": "AES Extension health summary — read mesh/logs/ext_*.json for full detail",
   "session": {
@@ -17,9 +17,9 @@
   },
   "network": {
     "total_sessions": 2,
-    "aes_sessions": 0,
+    "aes_sessions": 1,
     "node_sessions": 0,
-    "open_sessions": 1,
+    "open_sessions": 0,
     "idle_sessions": 1,
     "any_rate_limited": false,
     "any_offline": false,
@@ -43,7 +43,7 @@
     "last_startup": "2026-03-28T01:29:22.598Z",
     "perf_changes": 0,
     "sweeps_run": 0,
-    "github_syncs": 9,
+    "github_syncs": 10,
     "github_errors": 0,
     "read_more": "tunnel/read mesh/logs/ext_system.json"
   },
