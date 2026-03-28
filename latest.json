@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-28T02:43:34.672Z",
+  "generated_at": "2026-03-28T02:43:48.291Z",
   "generated_by": "claude_health_logger.js",
   "description": "AES Extension health summary — read mesh/logs/ext_*.json for full detail",
   "session": {
-    "status": "idle",
+    "status": "responding",
     "context_pct": 5,
     "context_health": "good",
     "message_count": 3,
@@ -11,7 +11,7 @@
     "current_model": "claude-sonnet",
     "online": true,
     "rate_limited": false,
-    "session_age_min": 64,
+    "session_age_min": 66,
     "recent_errors": [],
     "read_more": "tunnel/read mesh/logs/ext_health.json"
   },
