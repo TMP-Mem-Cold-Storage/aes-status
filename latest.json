@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T01:59:23.630Z",
+  "generated_at": "2026-03-28T01:59:47.861Z",
   "generated_by": "claude_health_logger.js",
   "description": "AES Extension health summary — read mesh/logs/ext_*.json for full detail",
   "session": {
@@ -11,7 +11,7 @@
     "current_model": "unknown",
     "online": true,
     "rate_limited": false,
-    "session_age_min": 19,
+    "session_age_min": 21,
     "recent_errors": [],
     "read_more": "tunnel/read mesh/logs/ext_health.json"
   },
