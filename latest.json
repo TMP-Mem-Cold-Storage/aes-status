@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-28T02:31:30.329Z",
+  "generated_at": "2026-03-28T02:31:44.631Z",
   "generated_by": "claude_health_logger.js",
   "description": "AES Extension health summary — read mesh/logs/ext_*.json for full detail",
   "session": {
     "status": "idle",
-    "context_pct": 20,
+    "context_pct": 23,
     "context_health": "good",
-    "message_count": 12,
-    "avg_response_s": 20.1,
+    "message_count": 14,
+    "avg_response_s": 19.7,
     "current_model": "claude-sonnet",
     "online": true,
     "rate_limited": false,
-    "session_age_min": 51,
+    "session_age_min": 53,
     "recent_errors": [],
     "read_more": "tunnel/read mesh/logs/ext_health.json"
   },
@@ -63,7 +63,7 @@
   "quick_status": {
     "status": "healthy",
     "level": "info",
-    "message": "Session healthy — 20% context, 20.1s avg response, 12 messages, model: sonnet",
+    "message": "Session healthy — 23% context, 19.7s avg response, 14 messages, model: sonnet",
     "action": null
   },
   "doctor_hint": "Load doctor.loer for targeted health queries. Windings: HEALTH_CHECK (all), SESSION, NETWORK, RAID, ERRORS, ATOMIC."
